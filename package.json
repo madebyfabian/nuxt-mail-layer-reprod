@@ -1,0 +1,19 @@
+{
+	"name": "my-nuxt-layer",
+	"type": "module",
+	"version": "0.0.1",
+	"main": "./nuxt.config.ts",
+	"scripts": {
+		"start": "nuxi dev .playground",
+		"build": "nuxt build .playground",
+		"preview": "nuxt preview .playground",
+		"postinstall": "nuxt prepare .playground"
+	},
+	"devDependencies": {
+		"nuxt": "3.7.4",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@vue-email/nuxt": "0.8.0-beta.4"
+	}
+}
