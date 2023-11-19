@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vue-email/nuxt':
-    specifier: 0.8.0-beta.4
-    version: 0.8.0-beta.4(typescript@5.2.2)
+    specifier: 0.8.0-beta.5
+    version: 0.8.0-beta.5(typescript@5.2.2)
 
 devDependencies:
   nuxt:
@@ -1376,12 +1376,12 @@ packages:
       vue: 3.3.8(typescript@5.2.2)
     dev: true
 
-  /@vue-email/compiler@0.8.0-beta.4(typescript@5.2.2):
-    resolution: {integrity: sha512-uir2SsAtcHes5gVTTmjq0ARY1TAYRU2c1Si0yNcAmoApg1bSZzCwjTYHA6yi3xIOHygKyHabAsVsOs0fUDDylw==}
+  /@vue-email/compiler@0.8.0-beta.5(typescript@5.2.2):
+    resolution: {integrity: sha512-XBS/0cpEBrW7wsklvnp2oET7DAgaIjKQ8jSw0QX7WjE9Pg+V/QQH+wOIomTpRCZ/9hJ6xaCDrMm2ARSIRLedCA==}
     dependencies:
-      '@vue-email/core': 0.8.0-beta.4
-      '@vue-email/types': 0.8.0-beta.4
-      '@vue-email/utils': 0.8.0-beta.4
+      '@vue-email/core': 0.8.0-beta.5
+      '@vue-email/types': 0.8.0-beta.5
+      '@vue-email/utils': 0.8.0-beta.5
       import-string: 0.1.0(typescript@5.2.2)
     transitivePeerDependencies:
       - bufferutil
@@ -1391,13 +1391,13 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@vue-email/core@0.8.0-beta.4:
-    resolution: {integrity: sha512-yj8EF789cKwCrIUBhXonHw9x6b2dbU7OcjVsCAJ/vaKogaWfa4prdljpJDOhheuOmqCw03Pkapyw+0vfYsL6lA==}
+  /@vue-email/core@0.8.0-beta.5:
+    resolution: {integrity: sha512-xS0v1iNAkKXYa0sSNYDginTZse21eDzDyCrFQVzaS+axMWLl7b08oMRgn21+vbKO4iqJ0JD8SNdFmbtmULZukQ==}
     dependencies:
       '@flowko/tw-to-css': 0.0.6
       '@swc/wasm': 1.3.97
-      '@vue-email/types': 0.8.0-beta.4
-      '@vue-email/utils': 0.8.0-beta.4
+      '@vue-email/types': 0.8.0-beta.5
+      '@vue-email/utils': 0.8.0-beta.5
       isomorphic-dompurify: 1.9.0
     transitivePeerDependencies:
       - bufferutil
@@ -1406,15 +1406,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@vue-email/nuxt@0.8.0-beta.4(typescript@5.2.2):
-    resolution: {integrity: sha512-L/JXXrmFFrUYwQiXUUUL7YJm/mGmp1IAFFcp3DXz95bjIL/2fMu887b+EQgaqhhckVUjKomQD4x8a5UnadNxbw==}
+  /@vue-email/nuxt@0.8.0-beta.5(typescript@5.2.2):
+    resolution: {integrity: sha512-Y67vjiWXwgYX/MOF5gvtVLfN8lTA7PzQgvMAZBmyxRQYPulyiPuwj0IeNM8BXR1xMht1fxMhCX3MQwAgvtG3OA==}
     dependencies:
       '@nuxt/kit': 3.7.4
       '@nuxt/schema': 3.7.4
-      '@vue-email/compiler': 0.8.0-beta.4(typescript@5.2.2)
-      '@vue-email/core': 0.8.0-beta.4
-      '@vue-email/types': 0.8.0-beta.4
-      '@vue-email/utils': 0.8.0-beta.4
+      '@vue-email/compiler': 0.8.0-beta.5(typescript@5.2.2)
+      '@vue-email/core': 0.8.0-beta.5
+      '@vue-email/types': 0.8.0-beta.5
+      '@vue-email/utils': 0.8.0-beta.5
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -1424,14 +1424,14 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@vue-email/types@0.8.0-beta.4:
-    resolution: {integrity: sha512-8g9GsZgzMhPzM6PlC1klY9c3ke2pr53ARek6LIPxPEafKsYkzt9HuDmjJYsLn+zMZo2ExQ2lGmj9ORIJunzLuQ==}
+  /@vue-email/types@0.8.0-beta.5:
+    resolution: {integrity: sha512-j96Oaw1Opi/EG8OfQQrk39PbRiWUv7M7zcrXTGjEf8vo+aS8oNlyqYDD45dT+saMGanM2lSmhzTm6MYXMZcGJA==}
     dev: false
 
-  /@vue-email/utils@0.8.0-beta.4:
-    resolution: {integrity: sha512-gBE4/luBUTtZwqWb4KisuIwY3tVym2YJHH9Jme1lfonXVlFwbSs7WnrcvqmNO86ni7pI8o0Y+JuZ7OYQzJUquA==}
+  /@vue-email/utils@0.8.0-beta.5:
+    resolution: {integrity: sha512-KWdG3dlafGK3K+CrKR3ef/IWXBk0U/OQQLlPnq8p3JOyt5Tc+BTNdw7QbRchdx9xMdZjWaJZxjOXDoF9HBfAJQ==}
     dependencies:
-      '@vue-email/types': 0.8.0-beta.4
+      '@vue-email/types': 0.8.0-beta.5
     dev: false
 
   /@vue-macros/common@1.8.0(vue@3.3.8):
